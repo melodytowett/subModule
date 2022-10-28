@@ -10,5 +10,10 @@ public class Modules {
     public String myHome(){
         return "Hello sub modules";
     }
+    @PostMapping("/index")
+    public String myIndex(){
+        return "post the data";
+    }
+
 
 }
